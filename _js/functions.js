@@ -3,7 +3,7 @@ window.onload = function(){
 	var map;
 	function initialize(){
 		var mapProp = {
-			center: new google.maps.LatLng(-27.648598,-48.577423),
+			center: new google.maps.LatLng(-7.11532,-34.861),
 			scrollwhell:false,
 			zoom:8,
 			MapTypeId:google.maps.MapTypeId.SATELLITE
@@ -31,6 +31,4 @@ window.onload = function(){
 		}
 	}
 	initialize();
-	var endereco = '<p style="color:black;font-size:13px;padding:10px 0; border-bottom:2px solid black;">Meu <br> endereço</p>'
-	addMarker(-27.61637,-48.59233228,'',endereco,true);
 }

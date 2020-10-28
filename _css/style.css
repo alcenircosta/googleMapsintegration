@@ -318,11 +318,17 @@ section.sessao4{
 	background-color:#FF703D;
 	width: 165px;
 	height: 44px;
-	font-size: 13px;
+	font-size: 18px;
 	color:white;
 	cursor:pointer;
 	margin-top: 15px;
 	border-radius: 30px;
+}
+form input[type=text]:hover{
+	border:2px solid #FF703D;
+}
+.form form input[type=submit]:hover{
+	border: 2px solid white;;
 }
 .form form textarea{
 	width: 90%;
