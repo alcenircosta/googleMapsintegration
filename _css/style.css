@@ -143,6 +143,10 @@ section.sessao1 .container{
 	line-height: 44px;
 	border-radius: 30px;
 }
+.btn1-texto a{
+	text-decoration: none;
+	color: white;
+}
 .device-sessao1{
 	float: left;
 	width: 50%;
@@ -427,6 +431,7 @@ footer p a{
 	.btn1-texto{
 		display: inline-block;
 	}
+
 	.texto-sessao1 p{
 		display: inline-block;
 	}
