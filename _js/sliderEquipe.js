@@ -34,12 +34,14 @@ function autoPlay(){
 }
 
 function goToSlider(curIndex){
-	var offSetX = $('.sobre-autor').eq(curIndex).offset().left - $('.sobre-autor').offset().left;
+var offSetX = $('.sobre-autor').eq(curIndex).offset().left - $('.sobre-autor').offset().left;
 	$('.slider-bullets span').css('background-color','rgb(200,200,200)');
 	$('.slider-bullets span').eq(curIndex).css('background-color','rgb(170,170,170)');
 	$('.scrollEquipe').stop().animate({'scrollLeft':offSetX+'px'});
 }
 $(window).resize(function(){
+var offSetX = $('.sobre-autor').eq(curIndex).offset().left - $('.sobre-autor').offset().left;
+
 	$('.scrollEquipe').stop().animate({'scrollLeft':offSetX+'px'});	
 })
 })
